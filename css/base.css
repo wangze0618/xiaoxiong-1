@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  display: block;
+}
