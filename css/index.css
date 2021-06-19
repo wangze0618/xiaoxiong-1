@@ -1,6 +1,28 @@
 body {
   background-color: #f8f8f8;
 }
+.nav-flow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  background-color: rgba(161, 71, 48, 0.8);
+  backdrop-filter: saturate(120%) blur(20px);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  line-height: 60px;
+}
+.nav-flow li {
+  margin: 0 60px;
+  width: 120px;
+}
+.nav-flow li a {
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+}
 .nav {
   background-color: #a14730;
 }

@@ -59,5 +59,21 @@ window.onload = function () {
         }, 3000)
     }
     autoplay();
+
+
+
+    var nav = document.getElementsByClassName('nav-ul')[0]
+    var banner = document.getElementsByClassName('banner')[0]
+    window.onscroll = function () {
+        //console.log('页面可以滚动')
+        var scrolltop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset   //页面向上卷去距离的兼容性表达
+        if (scrolltop > banner.offsetTop) {
+            nav.className = "nav-flow"
+            // console.log('ok');
+        } else {
+            nav.className = "nav-ul"
+        }
+
+    }
 }
 // 大图轮播自动切换结束
