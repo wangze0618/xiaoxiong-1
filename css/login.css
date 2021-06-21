@@ -1,0 +1,41 @@
+.register {
+  margin-top: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register form {
+  background-color: lightcoral;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+.register form h3 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+}
+.register form ul li input {
+  padding-left: 5px;
+  margin: 5px 0;
+  height: 40px;
+  width: 280px;
+  outline: none;
+  border: 2px solid #a14730;
+  border-radius: 18px;
+}
+.register form ul li a {
+  font-size: 16px;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  line-height: 35px;
+  width: 180px;
+  height: 35px;
+  background-color: #fa3737;
+  margin-top: 20px;
+}
+.register form ul li a:hover {
+  background-color: #c50404;
+}
