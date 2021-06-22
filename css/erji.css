@@ -1,0 +1,52 @@
+.revert {
+  background-color: #a14730;
+  color: #fff !important;
+}
+.erji-nav {
+  margin-top: 10px;
+}
+.erji-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a14730;
+}
+.erji-nav ul li a {
+  padding: 0 5px;
+  color: #a14730;
+}
+.erji-nav ul li a:hover {
+  border-bottom: 2px solid #a14730;
+}
+.erji-content ul li {
+  padding: 10px;
+  border-bottom: 1px solid #a14730;
+}
+.erji-content ul li a {
+  justify-content: space-around;
+  display: flex;
+  color: #a14730;
+  align-items: center;
+}
+.erji-content ul li a .erji-content-text {
+  width: 500px;
+  margin-left: -90px;
+  font-size: 14px;
+}
+.erji-content ul li a .erji-content-text h3,
+.erji-content ul li a .erji-content-text p {
+  margin: 4px 0;
+}
+.erji-content ul li a img {
+  width: 160px;
+}
+.erji-content ul li a .erji-content-car input {
+  height: 34px;
+  width: 80px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.erji-content ul li a .erji-content-car input:nth-child(2) {
+  border: 1px solid #a14730;
+}
